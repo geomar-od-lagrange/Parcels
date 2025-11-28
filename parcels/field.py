@@ -891,7 +891,7 @@ class Field:
                          [-1, 1, 0, 0],
                          [-1, 0, 0, 1],
                          [1, -1, 1, -1]])
-        maxIterSearch = 1e6
+        maxIterSearch = 1e7
         it = 0
         tol = 1.e-10
         if not grid.zonal_periodic:
